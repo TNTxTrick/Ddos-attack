@@ -16,21 +16,7 @@ const userAgents = [
     "Mozilla/5.0 (iPhone; CPU iPhone OS 15_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",
 ];
 
-const langHeader = [
-    "he-IL,he;q=0.9,en-US;q=0.8,en;q=0.7",
-    "fr-CH, fr;q=0.9, en;q=0.8, de;q=0.7, *;q=0.5",
-    "en-US,en;q=0.5",
-    "en-US,en;q=0.9",
-    "de-CH;q=0.7",
-    "da, en -gb;q=0.8, en;q=0.7",
-    "cs;q=0.5",
-    "en-US,en;q=0.9",
-    "en-GB,en;q=0.9",
-    "en-CA,en;q=0.9",
-    "en-AU,en;q=0.9",
-    "en-NZ,en;q=0.9",
-    "en-ZA,en;q=0.9"
-];
+const langHeader = ['ko-KR', "en-US", "zh-CN", "zh-TW", "ja-JP", "en-GB", "en-AU", "en-GB,en-US;q=0.9,en;q=0.8", "en-GB,en;q=0.5", 'en-CA', "en-UK, en, de;q=0.5", "en-NZ", "en-GB,en;q=0.6", "en-ZA", "en-IN", "en-PH", "en-SG", "en-HK", "en-GB,en;q=0.8", "en-GB,en;q=0.9", " en-GB,en;q=0.7", '*', "en-US,en;q=0.5", "vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5", "utf-8, iso-8859-1;q=0.5, *;q=0.1", "fr-CH, fr;q=0.9, en;q=0.8, de;q=0.7, *;q=0.5", "en-GB, en-US, en;q=0.9", "de-AT, de-DE;q=0.9, en;q=0.5", "cs;q=0.5", 'da, en-gb;q=0.8, en;q=0.7', "he-IL,he;q=0.9,en-US;q=0.8,en;q=0.7", 'en-US,en;q=0.9', "de-CH;q=0.7", 'tr', "zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2"];
 
 const refers = [
     "http://anonymouse.org/cgi-bin/anon-www.cgi/",
